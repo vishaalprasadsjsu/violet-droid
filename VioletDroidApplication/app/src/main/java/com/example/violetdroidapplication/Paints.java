@@ -40,29 +40,36 @@ public final class Paints {
         defaultTextTitlePaint = new Paint();
         defaultTextTitlePaint.setStyle(Paint.Style.FILL);
         defaultTextTitlePaint.setTextSize(dpFrompx(22));
+        defaultTextTitlePaint.setAntiAlias(true);
 
         defaultTextPaint = new Paint();
         defaultTextPaint.setStyle(Paint.Style.FILL);
+        defaultTextPaint.setAntiAlias(true);
         defaultTextPaint.setTextSize(dpFrompx(18));
 
         defaultOutlinePaint = new Paint();
         defaultOutlinePaint.setStrokeWidth(dpFrompx(2));
+        defaultOutlinePaint.setAntiAlias(true);
         defaultOutlinePaint.setStyle(Paint.Style.STROKE);
         defaultOutlinePaint.setColor(Color.BLACK);
 
         defaultBgPaint = new Paint();
         defaultBgPaint.setStrokeWidth(0);
+        defaultBgPaint.setAntiAlias(true);
         defaultBgPaint.setStyle(Paint.Style.FILL);
 
         defaultBgNotePaint = new Paint();
+        defaultBgNotePaint .setAntiAlias(true);
         defaultBgNotePaint.setStrokeWidth(0);
         defaultBgNotePaint.setStyle(Paint.Style.FILL);
 
         defaultArrowPaint = new Paint();
         defaultArrowPaint.setStyle(Paint.Style.STROKE);
+        defaultArrowPaint.setAntiAlias(true);
 
         defaultArrowHeadFillPaint = new Paint();
         defaultArrowHeadFillPaint.setStyle(Paint.Style.FILL);
+        defaultArrowHeadFillPaint.setAntiAlias(true);
 
     }
 

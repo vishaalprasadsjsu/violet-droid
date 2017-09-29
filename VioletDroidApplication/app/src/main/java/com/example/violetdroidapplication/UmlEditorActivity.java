@@ -642,6 +642,9 @@ public class UmlEditorActivity extends AppCompatActivity implements View.OnClick
         public PixelGridView(Context ctx) {
             super(ctx, null);
             blackPaint.setStyle(Paint.Style.STROKE);
+            blackPaint.setStrokeWidth(Paints.dpFrompx(2));
+            blackPaint.setAlpha(35);
+            blackPaint.setAntiAlias(true);
             cellDimens = Paints.dpFrompx(15);
         }
 
