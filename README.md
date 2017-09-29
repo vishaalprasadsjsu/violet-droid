@@ -5,11 +5,13 @@
 An Android Application to easily create UML Diagrams
 
 ## Installation 
-This app compiles at API 24, but compatible all the way back to API 15
+This app compiles at API 24, but compatible all the way back to API 15.
+
 Compatible with most phones and tablets
 
 ### Android SDK 
 You'll need to set your global `$ANDROID_HOME` variable to install, or, add a `local.properties` file in the `VioletDroidApplication` folder with your `sdk.dir` variable set.  That should look something like the following:
+
 For macOS: 
 ```
 sdk.dir=/Users/yourname/Library/Android/sdk/
