@@ -1,8 +1,8 @@
 # VioletDroid
 
-![VioletDroid on a Nexus 9](/images/nexus-9-violet.png "VioletDroid on a Nexus 9")
-
 An Android Application to easily create UML Diagrams
+
+![VioletDroid on a Nexus 9](/images/nexus-9-violet.png "VioletDroid on a Nexus 9")
 
 ## Installation 
 This app compiles at API 24, but compatible all the way back to API 15.
