@@ -1,6 +1,6 @@
 # VioletDroid
 
-An Android Application to easily create UML Diagrams
+An Android Application to easily create and share UML Diagrams
 ![VioletDroid on a Nexus 9](/images/nexus-9-violet.png "VioletDroid on a Nexus 9")
 
 ## Installation 
