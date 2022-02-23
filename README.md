@@ -21,9 +21,9 @@ sdk.dir=C:\\Users\\username\\AppData\\Local\\Android\\Sdk
 ```
 
 ### Building the app 
-To build and install the app, first plug your Android into your computer, or start an [Android emulator](https://developer.android.com/studio/run/emulator.html). Then run the following command in the `VioletDroidApplicaton` folder
+To build and install the app, first plug your Android into your computer, or start an [Android emulator](https://developer.android.com/studio/run/emulator.html). Then run the following command in the `VioletDroidApplicaton` folder: `./gradlew installDebug`
 ```
-$ ./gradlew installDebug 
+vishaal ~/violet-droid % ./gradlew installDebug
 ```
 
 ## Using VioletDroid
